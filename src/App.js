@@ -3,12 +3,6 @@ import "./App.css";
 import tabex from "tabex";
 import { nanoid } from 'nanoid'
 
-// active : 0 means unset
-// active : 1 means this tab is active
-// active : -1 means this tab is not set as active
-
-// const browserId = (() => nanoid())();
-
 export default function App() {
   const tabexRef = useRef();
   const [active, setActive] = useState(true);
